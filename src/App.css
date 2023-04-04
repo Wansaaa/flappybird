@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  background: url('res/background.png');
+  height: 100vh;
+  /* border: 5px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#fakingcanvas {
+  border: 1px solid #000;
+  overflow: hidden;
+  position: relative;
+  background-color: #70c5cf;
+}
